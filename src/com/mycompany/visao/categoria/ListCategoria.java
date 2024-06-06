@@ -312,10 +312,8 @@ public class ListCategoria extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new ListCategoria(daoCategoria).setVisible(true);
-            }
+        java.awt.EventQueue.invokeLater(() -> {
+            new ListCategoria(daoCategoria).setVisible(true);
         });
     }
 
