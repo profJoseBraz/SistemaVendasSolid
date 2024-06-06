@@ -7,6 +7,12 @@ O intuito deste sistema é ensinar os alunos a desenvolver uma aplicação de po
     * Requisitos funcionais e não funcionais
   * Design;
   * Implementação;
+    * Seguindo os princípios do SOLID:
+      * Single Principle Responsability;
+      * Open/Close Principle;
+      * Liskov Substitution Principle;
+      * Interface Segregation Principle;
+      * Dependenci Inversion Principle.
   * Teste;
   * Implantação;
   * Manutenção.   
